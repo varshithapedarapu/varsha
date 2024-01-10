@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+    background-color: #e0f7fa;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+.delete-btn,
+.complete-btn,
+.edit-btn {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.complete-btn {
+    background-color: #66bb6a;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.task-details {
+    font-size: 14px;
+    color: #555;
+}
+
+.priority {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.low { color: #66bb6a; }
+.medium { color: #ffcc29; }
+.high { color: #ff6666; }
